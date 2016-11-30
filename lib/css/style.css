@@ -5,12 +5,10 @@
 .menu ul{
 	list-style: none;
 	padding: 5px 5px 40px 5px;
-	width: auto;
 }
 .menu ul a{
 	text-decoration: none;
 	white-space: nowrap;
-	display: block;
 	color: #ddece4;
 }
 .menu ul li{
@@ -22,6 +20,9 @@
 }		
 .menu ul li:hover{
 	background-color: #bfcbd6;
+}
+.menu ul li:hover>a{
+	color: #465c71;
 }
 .menu li>ul{
 	display: none;
@@ -67,6 +68,7 @@
 	width: 50%; 
 }
 .my-form input{
+	height: 100%;
 }
 .my-form table{
 	width: 100%;
@@ -76,4 +78,7 @@
 }
 .my-form td:nth-child(even){
 	background-color: #66ff66;
+}
+.my-form td:nth-child(odd){
+	background-color: #ff66ff;
 }
