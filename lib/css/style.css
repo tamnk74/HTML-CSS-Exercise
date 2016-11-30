@@ -1,0 +1,79 @@
+.menu{
+	width: 100%;
+	background-color: #3a4f63;
+}
+.menu ul{
+	list-style: none;
+	padding: 5px 5px 40px 5px;
+	width: auto;
+}
+.menu ul a{
+	text-decoration: none;
+	white-space: nowrap;
+	display: block;
+	color: #ddece4;
+}
+.menu ul li{
+	padding: 5px 20px 5px 20px;
+	position: relative;
+	background-color: #465c71;
+	border: 1px solid #dddddd;
+	float: left;
+}		
+.menu ul li:hover{
+	background-color: #bfcbd6;
+}
+.menu li>ul{
+	display: none;
+	position: absolute;
+	margin-top: 2px;
+	left: -7px;
+	z-index: 90;
+}
+.menu li>ul li{
+	width: 100%;
+}
+.menu ul>li:hover ul{
+	display: block;
+}
+/*----------------------------------------------------------------------------------*/
+.pn{
+	width: 100%;
+	padding: 5px;
+}
+.action{
+	text-align: center;
+}
+.pn table{
+	width: 100%;
+	border: 1px solid #000;
+	border-collapse: collapse;
+}
+.pn table tr:nth-child(even)
+{
+	background-color: #f2f2f2
+}
+.pn table th
+{
+	text-align: left;
+	background-color: #a6a6a6;
+}
+.pn table td, th {
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+}
+/*-----------------------------------------------------------*/
+.my-form{
+	width: 50%; 
+}
+.my-form input{
+}
+.my-form table{
+	width: 100%;
+}
+.my-form div{
+	text-align: right;
+}
+.my-form td:nth-child(even){
+	background-color: #66ff66;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>How to</title>
+  <link rel="stylesheet" href="lib/css/style.css">
+  <script src="lib/js/jquery.min.js"></script>
+  <script src="lib/js/script.js"></script>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#datepicker" ).datepicker();
+  } );
+  </script>
+</head>
+<body>
+  <div>
+   <form class="my-form">
+    <fieldset>
+      <legend>Form</legend>
+      <table>
+       <tr>
+         <td>First Name</td>
+         <td colspan="2"> <input type="text" name="" maxlength="25" /></td>
+       </tr>
+       <tr>
+         <td>Last Name</td>
+         <td colspan="2"> <input type="text" name=""/></td>
+       </tr>
+       <tr>
+         <td>Year old</td>
+         <td colspan="2"> <input type="text" name=""/></td>
+       </tr>
+       <tr>
+          <td>Start Date</td>
+          <td> <input type="text" id="datepicker"></p></td>
+       </tr>
+       <tr>
+         <td>Phone Number</td>
+         <td colspan="2"><input type="text" name=""/></td>
+       </tr>
+     </table>
+    <div>
+      <button>Submit</button>
+    </div>
+   </fieldset>
+ </form>
+</div>
+</body>
+</html>
