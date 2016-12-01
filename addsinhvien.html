@@ -2,51 +2,52 @@
 <html>
 <head>
   <title>How to</title>
-  <link rel="stylesheet" href="lib/css/style.css">
+  <link rel="stylesheet" href="lib/css/style3.css">
+  <link rel="stylesheet" href="lib/css/jquery-ui.css">
   <script src="lib/js/jquery.min.js"></script>
-  <script src="lib/js/script.js"></script>
-  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-  <link rel="stylesheet" href="/resources/demos/style.css">
-  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-  <script>
-  $( function() {
-    $( "#datepicker" ).datepicker();
-  } );
-  </script>
+  <script src="lib/js/jquery-ui.js"></script>
+  <script src="lib/js/jquery.validate.js"></script>
+  <script src="lib/js/script3.js"></script>
 </head>
 <body>
   <div>
-   <form class="my-form">
+   <form id="addSinhvienForm" action="index.php">
     <fieldset>
       <legend>Form</legend>
       <table>
-      <tr>
-      <th></th><th></th><th></th>
-      </tr>
        <tr>
          <td>First Name</td>
-         <td colspan="2"> <input type="text" name="" maxlength="25" /></td>
+         <td colspan="2"><input class="text-input" type="text" id="firstname" name="firstname" required/></td>
        </tr>
        <tr>
          <td>Last Name</td>
-         <td colspan="2"> <input type="text" name=""/></td>
+         <td colspan="2">
+          <input class="text-input" type="text" id="lastname"  name="lastname" required/>
+        </td>
        </tr>
        <tr>
          <td>Year old</td>
-         <td colspan="2"> <input type="text" name=""/></td>
+         <td colspan="2">
+         <input class="text-input" type="number" id="yearold"  name="yearold" required/>
+         </td>
        </tr>
        <tr>
           <td>Start Date</td>
-          <td colspan="1"> <input type="text" id="datepicker"></p></td>
+          <td>
+            <input type="text" format="dd/mm/yyyy" id="datepicker" id="date"  name="date" required/>
+            <img id="icondatepicker" src="/howto/data/image/calendar.png" width="15px" height="=15px"></span>
+          </td>
+          <td></td>
        </tr>
        <tr>
          <td>Phone Number</td>
-         <td colspan="2"><input type="text" name=""/></td>
+         <td colspan="2">
+         <input class="text-input" type="number" id="phonenumber" name="phonenumber" required/>
+         </td>
        </tr>
      </table>
     <div>
-      <button>Submit</button>
+      <input type="submit" value="Submit"/>
     </div>
    </fieldset>
  </form>

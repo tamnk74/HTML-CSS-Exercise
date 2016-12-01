@@ -1,0 +1,22 @@
+fieldset{
+	width: 40%;
+}
+fieldset table{
+	width: 100%;
+}
+fieldset button{
+	width: 100px;
+	height: 25px;
+}
+fieldset .text-input{
+	width: 100%;
+}
+fieldset>div{
+	text-align: right;
+}
+img{
+	position: relative;
+	top: 5px;
+}
+font-weight: 300;
+}
