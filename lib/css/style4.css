@@ -7,9 +7,3 @@ table{
 .text-input{
 	width: 100%;
 }
-fieldset>div{
-	text-align: right;
-}
-label.error {
-	color: red;
-}

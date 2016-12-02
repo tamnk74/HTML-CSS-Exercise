@@ -4,7 +4,7 @@
 }
 .menu ul{
 	list-style: none;
-	padding: 5px 5px 40px 5px;
+	padding: 5px 5px 35px 5px;
 }
 .menu ul a{
 	text-decoration: none;
@@ -37,30 +37,3 @@
 .menu ul>li:hover ul{
 	display: block;
 }
-/*----------------------------------------------------------------------------------*/
-.pn{
-	width: 100%;
-	padding: 5px;
-}
-.action{
-	text-align: center;
-}
-.pn table{
-	width: 100%;
-	border: 1px solid #000;
-	border-collapse: collapse;
-}
-.pn table tr:nth-child(even)
-{
-	background-color: #f2f2f2
-}
-.pn table th
-{
-	text-align: left;
-	background-color: #a6a6a6;
-}
-.pn table td, th {
-	border-left: 1px solid #000;
-	border-right: 1px solid #000;
-}
-/*-----------------------------------------------------------*/
