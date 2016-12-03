@@ -1,5 +1,4 @@
 .menu{
-	width: 100%;
 	background-color: #3a4f63;
 }
 .menu ul{
@@ -17,23 +16,21 @@
 	background-color: #465c71;
 	border: 1px solid #dddddd;
 	float: left;
-}		
-.menu ul li:hover{
+}
+.menu li>ul{
+	display: none;
+	position: absolute;
+	left: -7px;
+}
+.menu li>ul li{
+	width: 100%;
+}	
+.menu li:hover{
 	background-color: #bfcbd6;
 }
 .menu ul li:hover>a{
 	color: #465c70;
 }
-.menu li>ul{
-	display: none;
-	position: absolute;
-	margin-top: 2px;
-	left: -7px;
-	z-index: 90;
-}
-.menu li>ul li{
-	width: 100%;
-}
-.menu ul>li:hover ul{
+.menu ul>li:hover>ul{
 	display: block;
 }

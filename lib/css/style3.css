@@ -10,6 +10,9 @@ table{
 fieldset>div{
 	text-align: right;
 }
+input{
+	clear: left;
+}
 label.error {
 	color: red;
 }
