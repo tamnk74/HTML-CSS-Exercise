@@ -28,9 +28,9 @@
 .menu li:hover{
 	background-color: #bfcbd6;
 }
-.menu ul li:hover>a{
+.menu li:hover>a{
 	color: #465c70;
 }
-.menu ul>li:hover>ul{
+.menu li:hover>ul{
 	display: block;
 }
